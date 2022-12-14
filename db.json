@@ -1,0 +1,214 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title": "DREAM BRIGHT",
+            "price": 17.50,
+            "category": "Body Spray",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw16facf27/hires/026535136.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 2,
+            "title": "AFTER DARK",
+            "price": 14.50,
+            "category": "Face & Body Wash",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe01596d2/hires/026551380.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 3,
+            "title": "WINTER CANDY APPLE",
+            "price": 16.50,
+            "category": "Ultimate Hydration Body Cream",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3f77a6bb/hires/026539030.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 4,
+            "title": "EUCALYPTUS SPEARMINT",
+            "price": 14.50,
+            "category": "Essential Oil Mist",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf953cdab/hires/026353230.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 5,
+            "title": "BATH & BODY WORKS",
+            "price": 25,
+            "category": "Coziest Blanket",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9df9db85/hires/026579508.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 6,
+            "title": "CLASSIC FLANNEL",
+            "price": 14.50,
+            "category": "Body Spray",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcf9d3d94/crop/026553504_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 7,
+            "title": "VANILLA BEAN NOEL",
+            "price": 13.50,
+            "category": "Face & Body Wash",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcf060763/hires/026561863.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 8,
+            "title": "CHAMPAGNE TOAST",
+            "price": 8.50,
+            "category": "Cleansing Bar",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2b6d215f/hires/026455706.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 9,
+            "title": "Frosted Coconut Snowball",
+            "price": 14.50,
+            "category": "Daily Nourishing Body Lotion",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7a23c1cb/crop/026557573_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 10,
+            "title": "WINTER CHERRY BLOSSOM",
+            "price": 16.50,
+            "category": "Body Spray",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8cb7abc3/hires/026575130.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 11,
+            "title": "DREAM BRIGHT",
+            "price": 15.50,
+            "category": "Shower Gel",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwab045613/crop/026535112_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 12,
+            "title": "SNOWFLAKES & CASHMERE",
+            "price": 14.50,
+            "category": "Daily Nourishing Body Lotion",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw34961349/hires/026557571.jpg?sh=471&yocs=o_s_"
+        },
+        {
+            "id": 13,
+            "title": "Cozy Evening",
+            "price": 13.50,
+            "category": "Shower Gel",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe3e8c8a8/crop/026575584_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 14,
+            "title": "SNOWFLAKES & CASHMERE",
+            "price": 16.50,
+            "category": "Ultimate Hydration Body Cream",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw505c31b0/crop/026557587_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 15,
+            "title": "Into the Night",
+            "price": 16.50,
+            "category": "Ultimate Hydration Body Cream",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw01cc13fe/crop/026502465_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 16,
+            "title": "Frosted Coconut Snowball",
+            "price": 16.50,
+            "category": "Body Spray",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw165d8a0f/crop/026557581_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 17,
+            "title": "Twisted Peppermint",
+            "price": 13.50,
+            "category": "Shower Gel",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw323eba53/crop/026537425_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 18,
+            "title": "Forever Red",
+            "price": 17.50,
+            "category": "Ultimate Hydration Body Cream",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7224b7c3/crop/026562514_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 19,
+            "title": "Twisted Peppermint",
+            "price": 16.50,
+            "category": "Body Spray",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb0cf5d3c/crop/026539041_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 20,
+            "title": "Wrapped in Vanilla",
+            "price": 13.50,
+            "category": "Shower Gel",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw12ecedc2/crop/026575577_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 21,
+            "title": "Sunshine Glow",
+            "price": 15.95,
+            "category": "Single Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw83a16f6e/crop/026632522_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 22,
+            "title": "Paris Café",
+            "price": 26.95,
+            "category": "3-Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbdf7073a/crop/026588599_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 23,
+            "title": "Deep Blue Sea",
+            "price": 15.95,
+            "category": "Single Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc1600366/crop/026632526_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 24,
+            "title": "Mahogany Vanilla",
+            "price": 26.50,
+            "category": "3-Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa7db3941/hires/026594489_alt_1.jpg?sh=413&yocs=o_s_"
+        },
+        {
+            "id": 25,
+            "title": "Marshmallow Fireside",
+            "price": 15.50,
+            "category": "Single Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw509e3909/crop/026582348_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 26,
+            "title": "The Perfect Christmas",
+            "price": 26.50,
+            "category": "3-Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1f848ac5/crop/026589825_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 27,
+            "title": "Tree Farm",
+            "price": 15.50,
+            "category": "Single Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwad394159/crop/026588391_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },
+        {
+            "id": 28,
+            "title": "Tiki Beach",
+            "price": 26.50,
+            "category": "3-Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw497cbbee/hires/026441620_alt_1.jpg?sh=413&yocs=o_s_"
+        },
+        {
+            "id": 29,
+            "title": "Mahogany Coconut",
+            "price": 26.50,
+            "category": "3-Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0b5bcfe6/hires/026438398_alt_1.jpg?sh=413&yocs=o_s_"
+        },
+        {
+            "id": 30,
+            "title": "Sunshine Glow",
+            "price": 15.95,
+            "category": "Single Wick Candle",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw83a16f6e/crop/026632522_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        }    
+    ]
+}
