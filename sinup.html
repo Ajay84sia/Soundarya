@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #container{
+            width: 80%;
+            margin:auto;
+        }
+        #container>div{
+            display: flex;
+            gap: 10px;
+            justify-content: end;
+        }
+        form{
+            margin: auto;
+            width: 250px;
+        }
+        input{
+            width: 100%;
+            text-align: center;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div>
+            <button>Sign Up</button>
+            <button>Sign In</button>
+        </div>
+        <form id="signUp">
+            <h1>Sign Up!</h1>
+            <input type="text" id="name" placeholder="Name" required>
+            <br>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <br>
+            <input type="password" id="password" placeholder="Password" required>
+            <br>
+            <input type="password" id="passwordChk" placeholder="Re-enter Password" required>
+            <br>
+            <input type="submit">
+        </form>
+        
+    </div>
+    
+</body>
+</html>
+<script>
+    let signUpBtn = document.querySelector('div>button:nth-child(1)');
+    let signUp = document.querySelector('#signUp');
+    signUp.addEventListener('submit',function(event){
+        event.preventDefault();
+        let username = signUp.name.value;
+        let user = signUp.email.value;
+        let password = signUp.password.value;
+        if(password != signUp.passwordChk.value){
+            alert('passwords do not match!');
+        }
+        else{
+            localStorage.setItem('user',user);
+            localStorage.setItem('username',username);
+            localStorage.setItem('password',password);
+            alert('Sign Up successful!');
+            signUp.reset();
+        }
+    })
+
+
+</script>
