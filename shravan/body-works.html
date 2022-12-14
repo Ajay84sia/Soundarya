@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\soundarya-logo-favicon.png" type="image/x-icon">  
+    <title>Skin Care Products | Bath and Body Works</title>
+</head>
+
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        margin: 0px;
+    }
+    #navbar{
+        /* border: 1px solid; */
+        height: 200px;
+    }
+    #body{
+        display: flex;
+        /* border: 1px solid; */
+        width: 90%;
+        margin: auto;
+    }
+    #body>div{
+        /* border: 1px solid; */
+    }
+    #body>div:nth-child(1){
+        width: 20%;
+        padding: 2%;
+        /* padding-left: 8%; */
+    }
+    #body>div:nth-child(2){
+        width: 100%;
+    }
+    .section{
+        font-weight: bold;
+    }
+    #body>div:nth-child(1)>p{
+        font-size: 75%;
+        color: grey;
+        line-height: 1.5em;
+        cursor: pointer;
+    }
+    #body>div>p:nth-child(1),
+    #body>div>p:nth-child(4),
+    #body>div>p:nth-child(9),
+    #body>div>p:nth-child(12),
+    #body>div>p:nth-child(16),
+    #body>div>p:nth-child(20),
+    #body>div>p:nth-child(25),
+    #body>div>p:nth-child(27){
+        color: black;
+        line-height: 2.5em;
+    }
+    #bodycare{
+        font-size: 150%;
+        font-weight: 100;
+    }
+    #products{
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 5%;
+    }
+    #products img{
+        width: 100%;
+    }
+    .title{
+        border: 1px solid;
+        font-size: 70%;
+        width: 80%;
+        margin: auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .title>h4{
+        margin:auto;
+    }
+    #fragrances>img{
+        width: 100%;
+    }
+    #about{
+        font-size: small;
+        color: rgb(70, 70, 70);
+        line-height: 1.5em;
+    }
+    #about h2{
+        font-weight: 100;
+    }
+    #footer{
+        /* border: 1px solid; */
+        width: 90%;
+        margin: auto;
+    }
+    .email{
+        height: 30px;
+        margin: 0px;
+    }
+    #submitemail{
+        height: 35px;
+        border-radius: 0px;
+        border: 0px;
+        background-color: rgb(58, 57, 57);
+        color: white;
+        margin-left: -5px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #footer1{
+        /* border: 1px solid; */
+        display: flex;
+    }
+    #footer1>div:nth-child(1){
+        width: 35%;
+        /* border: 1px solid; */
+    }
+    #footer>div>:nth-child(2){
+        width: 65%;
+        /* border: 1px solid; */
+    }
+    #contact>form>p{
+        color: rgb(36, 36, 36);
+        font-size: 90%;
+        line-height: 0em;
+        margin-top: 7%;
+    }
+    #links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #links>div>p{
+        font-size: 80%;
+        color: rgb(80, 79, 79);
+    }
+    #links>div>h4{
+        font-weight: 100;
+    }
+    #links>div>p:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #footer2{
+        margin-top: 20px;
+        display: flex;
+    }
+    #footer2>div:nth-child(1){
+        width: 40%;
+        /* border: 1px solid; */
+    }
+    #footer2>div:nth-child(2){
+        width: 60%;
+        /* border: 1px solid; */
+    }
+</style>
+
+<body>
+    <div id="navbar"></div>
+    <div id="body">
+        <div>
+            <p class="section">AROMATHERAPY</p>
+            <p>ALL AROMATHERAPY</p>
+            <p>MOISTURIZERS</p>
+            <p class="section">BATH AND SHOWER</p>
+            <p>ALL BATH AND SHOWER</p>
+            <p>BATH ACCESSORIES</p>
+            <p>BODY SCRUB</p>
+            <p>BODY WASH AND SHOWER GEL</p>
+            <p class="section">BODY CARE</p>
+            <p>ALL FRAGRANCE</p>
+            <p>PERFUME AND COLOGNE</p>
+            <p class="section">FRAGRANCE</p>
+            <p>ALL FRAGRANCE</p>
+            <p>BODY SPRAYS AND MISTS</p>
+            <p>PERFUME AND COLOGNE</p>
+            <p class="section">MEN'S</p>
+            <p>ALL MEN'S</p>
+            <p>BODY SPRAY AND COLOGNE</p>
+            <p>BODY WASH & SHOWER GE</p>
+            <p class="section">MOISTURIZERS</p>
+            <p>ALL MOISTURIZERS</p>
+            <p>BODY CREAM</p>
+            <p>BODY LOTION</p>
+            <p>HAND CREAM</p>
+            <p class="section">GIFT SETS</p>
+            <p>BODY CARE GIFT SETS</p>
+            <p class="section">BODY CARE OFFERS</p>
+            <p>New Arrivals</p>
+            <p>Select Items - Buy 2 ,Get 2</p>
+            <p>Body Care - Buy 3 , Get 1</p>
+            <p>Aromatherapy - Buy 3 , Get 1</p>
+            <p>Men's Body Care - Buy 3 , Get 1</p>
+            <p>Travel Size - Buy 2 , Get 1</p>
+        </div>
+        <div>
+            <h2 id="bodycare">BODY CARE</h2>
+            <hr>
+            <div id="products"></div>
+            <div id="fragrances">
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0eb2944a/DDA%201.jpg" alt="">
+            </div>
+            <div id="about">
+                <h2>About Body Care from Bath & Body Works</h2>
+                <p>Lotions, scrubs, creams, mists, oils…we get it,
+                    body care can be overwhelming. That's why we created a step-by-step skincare guide (and some fabulous products) to get you started::
+                    <br>
+                    <br>
+                    It all starts with exfoliation. Our body scrubs buff away dead skins (and bad moods), leaving you soft, smooth and primed for the rest of your body care routine.
+                    <br>
+                    <br>
+                    Next, get into the cleansing mood with a dreamily body wash or shower gel. From floral to fresh, citrusy to warm, you'll find the perfect wake-up call…even if the alarm did go off a little too early..
+                    <br>
+                    <br>
+                    Now, add some moisture to your skin with either body cream or body lotion. What's the difference? Our body lotions are packed with super-fluffy shea butter and hydrating vitamin E to keep you incredibly soft, smooth and nourished. Our body cream is also super-hydrating, but with a lush mix of glow-giving coconut oil, moisturizing shea butter and super-rich cocoa butter. Bonus: they leave you feeling smooth and refreshed, without feeling oily or heavy.
+                    <br>
+                    <br>
+                    And the best for last: it's time to indulge! Add a lip gloss or balm to your routine to keep your lips soft. Finish off the process with a spritz of your favorite fine fragrance mist to complement your mood.
+                    <br>
+                    <br>
+                    What if you want to spend a Saturday afternoon relaxing in the tub? Perfect! Light your favorite Bath & Body Works 3-wick candle grab a Candle and enjoy good vibes and soak up some suds and good vibes.
+                    <br>
+                    <br>
+                    Explore more body care and skincare routine products made for specifics: like Aromatherapy, foot care or hand care. Don't forget that your hair and face need TLC, too!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer1">
+            <div id="contact">
+            <p>
+                Get email offers and latest news from Bath & Body Works!
+            </p>
+            <form>
+                <p>
+                    ENTER EMAIL
+                </p>
+                <input class="email" type="email" required>
+                <p>
+                    CONFIRM EMAIL
+                </p>
+                <input class="email" type="email" required>
+                <button id="submitemail" type="submit">SUBMIT</button>
+            </form>
+            </div>
+            <div id="links">
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer2">
+            <div>
+                GET CONNECTED
+                <img src="images\icon.jpg" alt="">
+                <img src="images\icon.jpg" alt="">
+            </div>
+            <div></div>
+        </div>
+        
+        </div>
+    
+</body>
+</html>
+
+<script>
+let arr = [
+    {
+        id : "1",
+        title : "BODY WASH AND SHOWER GEL",
+        image : "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_storefront_catalog/default/dwc19f805a/DDA%2090.jpg"
+    },
+    {
+        id : "2",
+        title : "BODY LOTION",
+        image : "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_storefront_catalog/default/dwc19f805a/DDA%2090.jpg"
+    },
+    {
+        id : "3",
+        title : "BODY CREAM",
+        image : "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_storefront_catalog/default/dwc19f805a/DDA%2090.jpg"
+    },
+    {
+        id : "4",
+        title : "BODY MISTS",
+        image : "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_storefront_catalog/default/dwc19f805a/DDA%2090.jpg"
+    }
+]
+
+let products = document.querySelector("#products");
+arr.map(function(item){
+    let div = document.createElement("div");
+    let title = document.createElement("div")
+    let img = document.createElement("img");
+    let h4 = document.createElement("h4");
+    img.src = item.image;
+    h4.innerText = item.title;
+    title.setAttribute("class","title")
+    title.append(h4)
+    div.append(img,title);
+    products.append(div);
+})
+</script>
