@@ -31,7 +31,13 @@
     width: 65%;
     /* border: 1px solid; */
 }
-#contact>form>p{
+#contact>form>p:nth-child(1){
+    color: rgb(36, 36, 36);
+    font-size: 90%;
+    line-height: 0em;
+    margin-top: 7%;
+}
+#contact>form>p:nth-child(3){
     color: rgb(36, 36, 36);
     font-size: 90%;
     line-height: 0em;
@@ -114,3 +120,40 @@
     border-radius: 10px;
     padding: 1%;
 }
+#letushelp{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    visibility: hidden;
+}
+#letushelp>div:nth-child(2){
+    width: 5%;
+}
+
+@media all and (max-width: 700px) and (min-width: 400px){
+    #footer1{
+        display: block;
+    }
+    #footer1>div:nth-child(1){
+        width: 100%;
+        /* border: 1px solid; */
+    }
+    #footer1>div:nth-child(2){
+        width: 100%;
+        /* border: 1px solid; */
+    }
+    #footer1 input{
+        width: 70%;
+    }
+}
+
+/* @media all and (max-width: 399px) and (min-width: 0px){
+    #footer1>div:nth-child(2){
+        visibility: hidden;
+        display: block;
+    }
+    #letushelp{
+        visibility: visible;
+    }
+} */
