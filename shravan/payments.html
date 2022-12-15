@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\SmartSelect_20221215-101841_Gallery.png" type="image/x-icon">  
+    <title>site-Saundarya-site</title>
+</head>
+<link rel="stylesheet" href="footer.css">
+<script src="footer.js"></script>
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    #main{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #main>div:nth-child(1){
+        width: 55%;
+        padding: 2%;
+    }
+    #main>div:nth-child(2){
+        width: 45%;
+    }
+    #nav{
+        height: 100px;
+    }
+    #top{
+        width: 90%;
+        margin: auto;
+    }
+    #delivery{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -4%;
+    }
+    #pricedetails,#total{
+        display: flex;
+        justify-content: space-between;
+    }
+    #top>h2{
+        font-weight: 100;
+        color: rgb(56, 56, 56);
+    }
+    #address{
+        color: rgb(56, 56, 56);
+        font-size: 90%;
+    }
+    #address>a{
+        display: block;
+        text-align: right;
+        line-height: 0em;
+        margin: 2%;
+        color: blue;
+        cursor: pointer;
+    }
+    #payments>select{
+        width: 100%;
+        height: 35px;
+        outline: 0px solid grey;
+        font-size: 100%;
+        color: rgb(56, 56, 56);
+    }
+    #payments>select:focus{
+        outline: 2px solid lightblue;
+    }
+    #payments>div:nth-child(3){
+        text-align: right;
+    }
+    #payments>div:nth-child(3)>button{
+        margin: 2%;
+        height: 30px;
+        font-size: 100%;
+        border: 1px solid rgb(10, 10, 129);
+        border-radius: 3px;
+        color: rgb(56, 56, 56);
+        cursor: pointer;
+    }
+    #payments>div:nth-child(3)>button:hover{
+        text-decoration: underline;
+    }
+    #payments>input[type = number]{
+        height: 30px;
+        font-size: 100%;
+        color: rgb(56, 56, 56);
+        width: 98%;
+        margin-bottom: 3%;
+    }
+    #payments>input:focus{
+        outline: 0px solid;
+    }
+    #payments input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+        display: none;
+        margin: 0px;
+    }
+    #razorpay{
+        border-top: 1px dotted grey;
+        border-bottom: 3px solid rgb(46, 135, 165);
+        cursor: pointer;
+    }
+    #payments>img{
+        margin: 3%;
+        margin-bottom: 0px;
+        display: inline;
+    }
+    #details{
+        font-size: 90%;
+        color: rgb(56, 56, 56);
+        padding: 1%;
+        border-left: 1px solid grey;
+    }
+    #details>p{
+        font-size: 80%;
+        color: grey;
+    }
+    #total>div>h3{
+        font-size: 120%;
+        font-weight: bold;
+    }
+    #total{
+        border-top: 1px dashed black;
+        padding: 2%;
+    }
+    #submit{
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        border: 1px solid lightblue;
+        border-radius: 3px;
+        height: 35px;
+        color: white;
+    }
+    @media all and (max-width: 700px) and (min-width: 400px){
+        #main{
+            display: block;
+        }
+        #main>div:nth-child(1){
+            width: 100%;
+        }
+        #main>div:nth-child(2){
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div id="nav"></div>
+    <div id="top">
+    <h2>ADDRESS</h2>
+    <hr>
+    </div>
+    <div id="main">
+        <div id="address">
+            <h3>SHIPPING</h3>
+            <a>EDIT</a>
+            <h3>SHIPPING ADDRESS:</h3>
+
+            <p>
+                Shravan Singh
+                <br>
+                G-131, Bandh Road
+                <br>
+                Sangam Vihar
+                <br>
+                South Delhi Delhi 110080
+            </p>
+            <p>9311529750</p>
+
+            <h3>SHIPPING METHOD:</h3>
+            <div id="delivery">
+                <div>
+                    <p>Standard ( Estimated Delivery in 5 to 7 Days )</p>
+                </div>
+                <div>
+                    <p>₹0.00</p>
+                </div>
+
+            </div>
+            <br>
+            <h3>PAYMENT</h3>
+            <form id="payments">
+                <h3>BILLING ADDRESS</h3>
+                <select required>
+                    <option disabled>-Existing Shipments-</option>
+                    <option>data to be fetched from local storage</option>
+                </select>
+                <div id="buttons">
+                    <button type="button">UPDATE ADDRESS</button>
+                    <button type="button">ADD NEW</button>
+                </div>
+                <h3>PHONE NUMBER</h3>
+                <input type="number" required>
+                <div id="razorpay">
+                    <h3>RAZORPAY (CARDS, UPI, NETBANKING, WALLETS)</h3>
+                </div>
+                <form>
+                    <input type="radio" checked="checked">
+                    <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw33345569/images/NewRazorpay.png" alt="">
+                </form>
+            </form>
+        </div>
+        <div id="details">
+            <h3>ORDER DETAILS</h3>
+            <P>Prices are inclusive of all taxes</P>
+            <div id="pricedetails">
+                <div>
+                    <h4>Total MRP</h4>
+                    <h4>Shipping Charges</h4>
+                </div>
+                <div>
+                    <h4>₹1,799.00</h4>
+                    <h4>₹0.00</h4>
+                </div>
+            </div>
+            <div id="total">
+                <div>
+                    <h3>ORDER TOTAL</h3>
+                </div>
+                <div>
+                    <h3>₹1,799.00</h3>
+                </div>
+            </div>
+            <button id="submit" type="submit" form="payments">CONFIRM BILLING ADDRESS</button>
+        </div>
+    </div>
+    <hr>
+
+    <!-- footer------------------ -->
+
+    <div id="footer">
+        <div id="footer1">
+            <div id="contact">
+                <!-- <div id="infomessage">
+                    <h3>SOUNDARYA</h3>
+    
+                    <p>You may withdraw your consent at anytime. View Privacy Policy.</p>
+    
+                    <a>Contact us</a>
+                </div> -->
+            <p>
+                Get email offers and latest news from Bath & Body Works!
+            </p>
+            <form id="subscribe">
+                <p>
+                    ENTER EMAIL
+                </p>
+                <input id="email" class="email" type="email" required>
+                <!-- <div id="info">i</div> -->
+                <p>
+                    CONFIRM EMAIL
+                </p>
+                <input id="confirm" class="email" type="email" required>
+                <button id="submitemail" type="submit">SUBMIT</button>
+                <p id="subscribed"></p>
+            </form>
+            </div>
+            <div id="links">
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+    
+                <div>
+                    <h4>MY ACCOUNT</h4>
+                    <p>Sign In or Sign Up</p>
+                    <p>Order History</p>
+                    <p>My Love-It List</p>
+                </div>
+    
+                <div>
+                    <h4>DISCOVER</h4>
+                    <p>Our Story</p>
+                    <p>Shop by Fragrance</p>
+                    <p>New & Now</p>
+                </div>
+    
+                <div>
+                    <h4>FIND US</h4>
+                    <p>Store Locator</p>
+                    <p>Global Locations</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="letushelp">
+            <div>
+                <h3>LET US HELP</h3> 
+            </div>
+            <div>
+                <h3>▼</h3>
+            </div>
+        </div>
+        <div id="footer2">
+            <div>
+                <p>GET CONNECTED</p>
+                <div id="medialinks">
+                    <img src="images\icon.jpg" alt="">
+                    <img src="images\icon2.jpg" alt="">
+                </div>
+                <img src="images\cards.jpeg" alt="">
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwfa8fc09a/Happiness_Guaranteedtimes.jpg" alt="">
+                <a>Site Map</a> | <a>Terms Of Use</a> | <a>Privacy Policy</a>
+                <br>
+                <p>@Soundarya. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        </div>
+
+</body>
+</html>
