@@ -13,7 +13,7 @@ fetch(url)
 
 
 function displayProd(data){
-    data.map((item)=>{
+    data.forEach((item)=>{
         let prodImg = item.image;
         let prodName = item.title;
         let category = item.category;
@@ -28,9 +28,8 @@ function getasProd(prodImg, prodName, category, prodPrice){
         <img src="${prodImg}" alt="${prodName}">
         <h2>${prodName.substring(0, 20)}</h2>
         <p>${category}</p>
-        <h2>$${prodPrice}</h2>
+        <h2>₹${prodPrice}</h2>
         <button>ADD TO BAG</button>
     </div>
     `
-    
 }
