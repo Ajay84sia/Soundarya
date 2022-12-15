@@ -1,0 +1,405 @@
+/* Navbar CSS */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #top {
+    display: flex;
+  }
+  #top>div{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border-color: white;
+    background-image: url(https://cdn1.staticans.com/image/catalog/brandstore/bathandbodyworks/logo/gingham-pattern.svg);
+    background-position: calc(50% - 7px) calc(50% - 21px);
+    background-size: 28px 28px;
+  }
+  
+  /* Drop */
+  
+  
+  #top>div:nth-child(1) {
+    width: 40%;
+  }
+  
+  #top>h1{
+    padding: 0px 0px 0px 20px;
+    width: 20%;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  
+  #top>div:nth-child(3) {
+    width: 40%;
+  }
+  
+  #gray_ribban {
+    margin-top: -5px;
+    height: 36px;
+    background-color: #f2f2f2;
+  }
+  
+  #main {
+    height: 100px;
+    display: flex;
+    background-color: white;
+    border-bottom: 3px solid skyblue;
+  }
+  
+  #main>div:nth-child(1) {
+    width: 70%;
+    height: 80px;
+  }
+  
+  #main>div:nth-child(2) {
+    width: 30%;
+    height: auto;
+  }
+  
+  #logo {
+    padding: 10px 0px 0px 55%;
+    width: 23%;
+  }
+  
+  
+  /* ///  */
+  #nav-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  #nav-btn>div:nth-child(1) {
+    width: 60%;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  #nav-btn>div:nth-child(1)>input {
+    text-decoration: none;
+    border: 2px solid #dedede;
+  }
+  
+  #nav-btn>div:nth-child(1)>input:hover {
+    border: 2px solid #61d2ff;
+    /* border-bottom: 3px solid #f2f2f2; */
+  }
+  
+  #nav-btn>div:nth-child(2) {
+    width: 10%;
+    height: auto;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+  
+  #nav-btn>div:nth-child(3) {
+    width: 10%;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+  
+  #s{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  
+  /* nav-bar css */
+  
+  
+  
+  #container {
+    margin: 0 auto;
+    padding-left: 50px;
+  }
+  
+  nav {
+  
+    background-color: white;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    background-color: white;
+  
+  
+  }
+  
+  nav a {
+    display: block;
+    padding: 0 10px;
+    color: black;
+    font-size: 15px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: rgb(66, 175, 219);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-bottom: 2px solid blue;
+  }
+  
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 62px;
+    /* the height of the main nav */
+  }
+  
+  /* Display Dropdowns on Hover */
+  nav ul li:hover>ul {
+    display: inherit;
+  }
+  
+  /* Fisrt Tier Dropdown */
+  nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+  
+  }
+  
+  /* Second, Third and more Tiers	*/
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 200px;
+  }
+  
+  
+  /* Change this in order to change the Dropdown symbol */
+  /* li > a:after { content:  '+'; } */
+  li>a:only-child:after {
+    content: '';
+  }
+  
+  .padding {
+    padding: 0px 40px 0px 40px;
+  }
+  
+  #new-margin {
+    margin-left: 40px;
+  }
+  
+  
+  
+  /* Navbar CSS */
+
+
+
+
+
+
+
+
+
+
+
+#head{
+    width: 70%;;
+    margin: auto;
+    padding: 20px;
+
+}
+img{
+    width: 100%;
+}
+#mid2{
+    width: 30%;
+    margin: auto;
+    
+}
+#mid2>input{
+    width: 90%;
+    height: 28px;
+    
+}
+button{
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 35px;
+    font-weight: bold;
+    width: 150px;    
+}
+button:hover{
+    cursor: pointer;
+    align-items: center;
+    background-color:rgb(231, 231, 231) ;
+    color: black;
+    text-align: center;
+    border-color: white;
+    border: none;
+}
+
+.enddiv{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.enddiv a{
+  text-decoration: none;
+  color: rgb(0, 51, 255);
+  font-size: large;
+  font-weight: bold;
+}
+
+
+/* Footer CSS */
+#rule{
+    background-color: #dddddd;
+  }
+  
+  #footer{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .email{
+    height: 30px;
+    margin: 0px;
+  }
+  #submitemail{
+    height: 35px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    margin-left: -5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80px;
+    cursor: pointer;
+  }
+  #footer1{
+    /* border: 1px solid; */
+    display: flex;
+  }
+  #footer1>div:nth-child(1){
+    width: 35%;
+    /* border: 1px solid; */
+  }
+  #footer>div>:nth-child(2){
+    width: 65%;
+    /* border: 1px solid; */
+  }
+  #contact>form>p{
+    color: rgb(36, 36, 36);
+    font-size: 90%;
+    line-height: 0em;
+    margin-top: 7%;
+  }
+  #links{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #links>div>p{
+    font-size: 80%;
+    color: rgb(80, 79, 79);
+  }
+  #links>div>h4{
+    font-weight: 100;
+  }
+  #links>div>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #footer2{
+    margin-top: 5%;
+    display: flex;
+  }
+  #footer2>div:nth-child(1){
+    width: 20%;
+    /* border: 1px solid; */
+    /* background-color: red; */
+  }
+  #footer2>div:nth-child(2){
+    width: 100%;
+    /* border: 1px solid; */
+    text-align: right;
+    
+  }
+  #medialinks{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20%;
+  }
+  #medialinks>img{
+    cursor: pointer;
+  }
+  #footer2>div:nth-child(2)>img{
+    width: 35%;
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-bottom: 10%;
+  }
+  #footer2>div:nth-child(2)>a{
+    cursor: pointer;
+    color: gray;
+    font-size: 90%;
+  }
+  #footer2>div:nth-child(2)>a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  #info{
+    display: inline;
+    font-weight: 700;
+    background-color: grey;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50%;
+  }
+  #infomessage{
+    position: absolute;
+    width: 20%;
+    margin-left: auto;
+    background-color: white;
+    margin-left: 13%;
+    margin-top: -6%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  
+  #footer>#footer1 #mailp{
+    text-align: left;
+  }
+  
+  #mediap{
+    text-align: left;
+  }
+  
+  #copyright{
+    text-align: right;
+  }
