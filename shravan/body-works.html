@@ -24,6 +24,7 @@
         /* border: 1px solid; */
         width: 90%;
         margin: auto;
+        margin-bottom: 10%;
     }
     #body>div{
         /* border: 1px solid; */
@@ -97,6 +98,7 @@
         /* border: 1px solid; */
         width: 90%;
         margin: auto;
+        margin-bottom: 50px;
     }
     .email{
         height: 30px;
@@ -111,6 +113,7 @@
         margin-left: -5px;
         padding-left: 2%;
         padding-right: 2%;
+        cursor: pointer;
     }
     #footer1{
         /* border: 1px solid; */
@@ -146,16 +149,66 @@
         cursor: pointer;
     }
     #footer2{
-        margin-top: 20px;
+        margin-top: 5%;
         display: flex;
     }
     #footer2>div:nth-child(1){
-        width: 40%;
+        width: 20%;
         /* border: 1px solid; */
+        /* background-color: red; */
     }
     #footer2>div:nth-child(2){
-        width: 60%;
+        width: 100%;
         /* border: 1px solid; */
+        text-align: right;
+        
+    }
+    #medialinks{
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 20%;
+    }
+    #medialinks>img{
+        cursor: pointer;
+    }
+    #footer2>div:nth-child(2)>img{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-bottom: 10%;
+    }
+    #footer2>div:nth-child(2)>a{
+        cursor: pointer;
+        color: gray;
+        font-size: 90%;
+    }
+    #footer2>div:nth-child(2)>a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    #info{
+        display: inline;
+        font-weight: 700;
+        background-color: grey;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 50%;
+    }
+    #infomessage{
+        position: absolute;
+        /* border: 1px solid; */
+        /* height: 50px; */
+        width: 20%;
+        margin-left: auto;
+        background-color: white;
+        margin-left: 13%;
+        margin-top: -6%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 1%;
     }
 </style>
 
@@ -233,6 +286,13 @@
     <div id="footer">
         <div id="footer1">
             <div id="contact">
+                <!-- <div id="infomessage">
+                    <h3>SOUNDARYA</h3>
+
+                    <p>You may withdraw your consent at anytime. View Privacy Policy.</p>
+
+                    <a>Contact us</a>
+                </div> -->
             <p>
                 Get email offers and latest news from Bath & Body Works!
             </p>
@@ -241,6 +301,7 @@
                     ENTER EMAIL
                 </p>
                 <input class="email" type="email" required>
+                <div id="info">i</div>
                 <p>
                     CONFIRM EMAIL
                 </p>
@@ -259,41 +320,42 @@
                 </div>
 
                 <div>
-                    <h4>CUSTOMER CARE</h4>
-                    <p>Help & FAQs</p>
-                    <p>Shipping</p>
-                    <p>Returns & Exchanges</p>
-                    <p>Order Tracking</p>
-                    <p>Contact Us</p>
+                    <h4>MY ACCOUNT</h4>
+                    <p>Sign In or Sign Up</p>
+                    <p>Order History</p>
+                    <p>My Love-It List</p>
                 </div>
 
                 <div>
-                    <h4>CUSTOMER CARE</h4>
-                    <p>Help & FAQs</p>
-                    <p>Shipping</p>
-                    <p>Returns & Exchanges</p>
-                    <p>Order Tracking</p>
-                    <p>Contact Us</p>
+                    <h4>DISCOVER</h4>
+                    <p>Our Story</p>
+                    <p>Shop by Fragrance</p>
+                    <p>New & Now</p>
                 </div>
 
                 <div>
-                    <h4>CUSTOMER CARE</h4>
-                    <p>Help & FAQs</p>
-                    <p>Shipping</p>
-                    <p>Returns & Exchanges</p>
-                    <p>Order Tracking</p>
-                    <p>Contact Us</p>
+                    <h4>FIND US</h4>
+                    <p>Store Locator</p>
+                    <p>Global Locations</p>
                 </div>
             </div>
         </div>
 
         <div id="footer2">
             <div>
-                GET CONNECTED
-                <img src="images\icon.jpg" alt="">
-                <img src="images\icon.jpg" alt="">
+                <p>GET CONNECTED</p>
+                <div id="medialinks">
+                    <img src="images\icon.jpg" alt="">
+                    <img src="images\icon2.jpg" alt="">
+                </div>
+                <img src="images\cards.jpeg" alt="">
             </div>
-            <div></div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwfa8fc09a/Happiness_Guaranteedtimes.jpg" alt="">
+                <a>Site Map</a> | <a>Terms Of Use</a> | <a>Privacy Policy</a>
+                <br>
+                <p>@Soundarya. All Rights Reserved.</p>
+            </div>
         </div>
         
         </div>
