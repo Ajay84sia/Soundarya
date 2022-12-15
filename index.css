@@ -85,6 +85,7 @@ body {
   /* border: 1px solid green; */
   width: 100%;
   margin: auto;
+  margin-top: 20px;
 }
 .div-img {
   /* border: 1px solid red; */
@@ -92,9 +93,14 @@ body {
   display: flex;
   margin: auto;
   width: 85%;
+  gap: 25px;
 }
 .div-img img {
   /* border: 1px solid green; */
   width: 100%;
   margin: auto;
 }
+.div-img>div>p{
+    line-height: 0%;
+}
+
