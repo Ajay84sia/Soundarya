@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\SmartSelect_20221215-101841_Gallery.png" type="image/x-icon">
+    <title>GET INSPIRED | SOUNDARYA</title>
+</head>
+
+<link rel="stylesheet" href="footer.css">
+
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    #nav{
+        height: 200px;
+    }
+    #body{
+        /* border: 1px solid; */
+        width: 85%;
+        margin: auto;
+        /* text-align: center; */
+        margin-bottom: 200px;
+    }
+    #body>p{
+        color: rgb(65, 65, 65);
+        text-align: center;
+    }
+    #body>h3{
+        font-size: 150%;
+        font-weight: bold;
+        color: rgb(41, 41, 41);
+        display: inline;
+    }
+    #body>img:nth-child(1){
+        width: 100%;
+    }
+    #cards{
+        width: 70%;
+        margin: auto;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 7%;
+    }
+    #cards>div>p{
+        color: rgb(41, 41, 41);
+        font-size: 90%;
+        text-align: center;
+    }
+    #cards>div>p:hover{
+        text-decoration: underline;
+    }
+    #cards>div{
+        cursor: pointer;
+    }
+    #cards>div>img{
+        width: 90%;
+    }
+    #bodycare,#fragrances,#handcare{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3%;
+        margin-bottom: 10%;
+        border-top: 2px solid rgb(41, 41, 41);
+        padding-top: 5%;
+    }
+    #featured{
+        border-top: 2px solid rgb(41, 41, 41);
+        padding-top: 5%;
+    }
+    #bodycare>div>img,#fragrances>div>img,#handcare>div>img,#featured>img{
+        width: 100%;
+    }
+    #bodycare>div>h3,#fragrances>div>h3,#handcare>div>h3,#featured>h3{
+        font-weight: bold;
+        color: rgb(41, 41, 41);
+    }
+    #bodycare>div>p,#fragrances>div>p,#handcare>div>p,#featured>p{
+        color: rgb(41, 41, 41);
+    }
+    #bodycare>div>button,#fragrances>div>button,#handcare>div>button,#featured>button{
+        display: block;
+        margin-left: auto;
+        height: 30px;
+        border: 0px;
+        background-color: rgb(41, 41, 41);
+        color: white;
+        font-size: 70%;
+    }
+    #body>button{
+        display: block;
+        margin: auto;
+        height: 40px;
+        border: 2px solid rgb(41, 41, 41);
+        color: rgb(41, 41, 41);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #body>button:hover{
+        border-color: white;
+    }
+    #bodycare>div,#fragrances>div,#handcare>div,#featured{
+        cursor: pointer;
+    }
+    .icons{
+        width: 3%;
+        display: inline;
+    }
+</style>
+
+<body>
+    <div id="nav"></div>
+    <div id="body">
+        <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwc4893870/images/getinspired.png" alt="">
+        <p>Fresh ideas. Fun how-tos. Fragrance guides. It all starts here.</p>
+
+        <br>
+
+        <div id="cards">
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5a92050d/images/BodyCare.svg" alt="">
+                <p>BODY CARE</p>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5826cc1f/images/HomeFragrance.svg" alt="">
+                <p>HOME FRAGRANCES</p>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw2a11b7e8/images/Seasonal.svg" alt="">
+                <P>SEASONAL</P>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw9c08c047/images/BehindtheScents.svg" alt="">
+                <P>BEHIND THE SCENES</P>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw60ac5beb/images/HandCare.svg" alt="">
+                <P>HAND CARE</P>
+            </div>
+        </div>
+        <h3>FEATURED</h3>
+        <!-- <hr> -->
+        <div id="featured">
+            <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw5d54ce29/Image1.jpg" alt="">
+            <h3>HELLO, NEW AROMATHERAPY FORMULAS</h3>
+            <p>Four simple steps (and so many scents) that have you covered from head to toe.</p>
+            <button>READ MORE</button>
+        </div>
+        
+        <img class="icons" src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw6886ee73/Body%20Care.svg" alt="">
+        <h3>BODY CARE</h3>
+        <!-- <hr> -->
+        <div id="bodycare">
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwb43bd0cc/image%205.png" alt="">
+                <h3>OUR SKINCARE ROUTINE FOR YOUR BODY</h3>
+                <p>Four simple steps (and so many scents) that have you covered from head to toe</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwd898f656/image%206.png" alt="">
+                <h3>GLOWING SKIN GAMECHANGERS</h3>
+                <p>These five steps will have your skin radiating beauty in minutes.</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw1d4aed56/image%207.png" alt="">
+                <h3>PERFUME VS FINE FRAGRANCE MIST</h3>
+                <p>The verdict? It all comes down to how (and where) you wear it.</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwb6c5f892/image%208.png" alt="">
+                <h3>6 REASONS WE LOVE BODY SCRUBS</h3>
+                <p>And why you definitely need to make one (or a few!) part of your routine.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        <button>SHOW MORE BODY CARE CONTENT</button>
+        <img class="icons" src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf29c3f60/Home%20Fragrance.svg" alt="">
+        <h3>HOME FRAGRANCES</h3>
+        <!-- <hr> -->
+        <div id="fragrances">
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwbef7a647/image%209.png" alt="">
+                <h3>5 REASONS YOU NEED MORE CANDLES</h3>
+                <p>Looking for an excuse to stock up? We've got five of them, right here.</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw50c07089/image%2010.png" alt="">
+                <h3>5 WAYS TO REPURPOSE BATH & BODY WORKS PRODUCTS</h3>
+                <p>You've got: an empty soap or candle. We've got: cute ideas to make it new.</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw2cf10a97/image%2040.png" alt="">
+                <h3>HOW TO MAKE YOUR HOME COZY</h3>
+                <p>Instant autumn warmth in just four steps? You got it.</p>
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf92c2b28/image%2012.png" alt="">
+                <h3>The ESSENTIAL GUIDE: WALLFLOWERS</h3>
+                <p>An inside look at our always-on air fresheners (including some favorite scents).</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        <img class="icons" src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw8a4ce4d7/Hand%20Care.svg" alt="">
+        <h3>HAND CARE</h3>
+        <!-- <hr> -->
+        <div id="handcare">
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwfdf7ef63/image%2021.png" alt="">
+                Q&A: HAND CARE ROUTINE
+                Psst. It starts at the sink and goes beyond a dab of hand cream.
+                <button>READ MORE</button>
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwe74fcd35/image%2023.png" alt="">
+                HAND SOAPS 101
+                Everything you need to know about our favorite suds, in one easy place.
+                <button>READ MORE</button> 
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer1">
+            <div id="contact">
+                <!-- <div id="infomessage">
+                    <h3>SOUNDARYA</h3>
+    
+                    <p>You may withdraw your consent at anytime. View Privacy Policy.</p>
+    
+                    <a>Contact us</a>
+                </div> -->
+            <p>
+                Get email offers and latest news from Bath & Body Works!
+            </p>
+            <form id="subscribe">
+                <p>
+                    ENTER EMAIL
+                </p>
+                <input id="email" class="email" type="email" required>
+                <!-- <div id="info">i</div> -->
+                <p>
+                    CONFIRM EMAIL
+                </p>
+                <input id="confirm" class="email" type="email" required>
+                <button id="submitemail" type="submit">SUBMIT</button>
+                <p id="subscribed"></p>
+            </form>
+            </div>
+            <div id="links">
+                <div>
+                    <h4>CUSTOMER CARE</h4>
+                    <p>Help & FAQs</p>
+                    <p>Shipping</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Order Tracking</p>
+                    <p>Contact Us</p>
+                </div>
+    
+                <div>
+                    <h4>MY ACCOUNT</h4>
+                    <p>Sign In or Sign Up</p>
+                    <p>Order History</p>
+                    <p>My Love-It List</p>
+                </div>
+    
+                <div>
+                    <h4>DISCOVER</h4>
+                    <p>Our Story</p>
+                    <p>Shop by Fragrance</p>
+                    <p>New & Now</p>
+                </div>
+    
+                <div>
+                    <h4>FIND US</h4>
+                    <p>Store Locator</p>
+                    <p>Global Locations</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="letushelp">
+            <div>
+                <h3>LET US HELP</h3> 
+            </div>
+            <div>
+                <h3>▼</h3>
+            </div>
+        </div>
+        <div id="footer2">
+            <div>
+                <p>GET CONNECTED</p>
+                <div id="medialinks">
+                    <img src="images\icon.jpg" alt="">
+                    <img src="images\icon2.jpg" alt="">
+                </div>
+                <img src="images\cards.jpeg" alt="">
+            </div>
+            <div>
+                <img src="https://www.bathandbodyworks.in/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwfa8fc09a/Happiness_Guaranteedtimes.jpg" alt="">
+                <a>Site Map</a> | <a>Terms Of Use</a> | <a>Privacy Policy</a>
+                <br>
+                <p>@Soundarya. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        </div>
+
+</body>
+</html>
+
+<script src="footer.js" ></script>
