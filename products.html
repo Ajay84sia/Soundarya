@@ -249,7 +249,22 @@
 
   <!-- product part -->
     <div id="main2">
-        <div id="main2-left"></div>
+        <div id="main2-left">
+          <div id="padboth">
+            <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw675588a1/images/Christmas2022/bc_mens-sfl-blktie_c1_gpt.gif?yocs=s_" alt="">
+            <h3>Available Products</h3>
+            <p>Body Cream</p>
+            <p>Body Lotion</p>
+            <p>Body Spray</p>
+            <p>Body Wash</p>
+            <p>Candles</p>
+            <p>Moisturizers</p>
+            <p>Home Fragrance</p>
+            <p>Hand Soaps</p>
+            <p>Sanitizers</p>
+            <p>Shower Gel</p>
+          </div>               
+        </div>
         <div id="main2-right">
             <div id="right-top">
                 <div>
@@ -284,18 +299,21 @@
 
                 <div id="right-mid-filter">
                     <div>
-                        <label for="prodType">Filter By</label>
-                        <select name="prodType" id="prodType">
-                          <option value="">PRODUCT TYPE</option>
-                          <option value="Body Spray">Body Spray</option>
+                        <select onchange="handleCat()" name="prodType" id="prodType">
+                          <option value="">Filter By : Product Type</option>
                           <option value="Body Cream">Body Cream</option>
-                          <option value="Essential Oil ">Essential Oil</option>
+                          <option value="Body Spray">Body Spray</option>
+                          <option value="Body Lotion">Body Lotion</option>
+                          <option value="Candle">Candles</option>
+                          <option value="Cleansing Bar">Cleansing Bar</option>
+                          <option value="Body Wash">Face & Body Wash</option>
+                          <option value="Hand Soap">Hand Soap</option>
                           <option value="Shower Gel">Shower Gel</option>
                         </select>
                     </div>
                     <div>
                         <select name="sort" id="sort">
-                          <option value="">SORT BY</option>
+                          <option value="">Sort By : Price</option>
                           <option value="LTH">Price Low To High</option>
                           <option value="HTL">Price High To Low</option>
                         </select>
