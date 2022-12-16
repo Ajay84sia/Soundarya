@@ -22,13 +22,6 @@
             "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3f77a6bb/hires/026539030.jpg?sh=471&yocs=o_s_"
         },
         {
-            "id": 4,
-            "title": "EUCALYPTUS SPEARMINT",
-            "price": 14.50,
-            "category": "Essential Oil Mist",
-            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf953cdab/hires/026353230.jpg?sh=471&yocs=o_s_"
-        },
-        {
             "id": 5,
             "title": "BATH & BODY WORKS",
             "price": 25,
@@ -209,6 +202,55 @@
             "price": 15.95,
             "category": "Single Wick Candle",
             "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw83a16f6e/crop/026632522_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
-        }    
+        },
+        {
+            "id": 31,
+            "title": "Japanese Cherry Blossom",
+            "price": 8.00,
+            "category": "Cleansing Bar",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0f91bbba/hires/026440785.jpg?sh=471&yocs=o_s_"
+        },    
+        {
+            "id": 32,
+            "title": "Graphite",
+            "price": 8.50,
+            "category": "Cleansing Bar",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3acf8f1e/hires/026393082.jpg?sh=471&yocs=o_s_"
+        },    
+        {
+            "id": 33,
+            "title": "Cucumber Melon",
+            "price": 10.50,
+            "category": "Cleansing Bar",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa8f82983/hires/026330002.jpg?sh=471&yocs=o_s_"
+        },    
+        {
+            "id": 34,
+            "title": "Black Cherry Merlot",
+            "price": 9.50,
+            "category": "Cleansing Bar",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc384ea13/hires/026330003.jpg?sh=471&yocs=o_s_"
+        },    
+        {
+            "id": 35,
+            "title": "Vintage",
+            "price": 8.00,
+            "category": "Gentle Foaming Hand Soap",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwec0d62a6/hires/026438828.jpg?sh=471&yocs=o_s_"
+        },    
+        {
+            "id": 36,
+            "title": "Fresh Water",
+            "price": 7.50,
+            "category": "Gentle Foaming Hand Soap",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw66824eba/crop/026438825_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        },    
+        {
+            "id": 37,
+            "title": "After Dark",
+            "price": 7.50,
+            "category": "Gentle Foaming Hand Soap",
+            "image": "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.21a/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6612198e/crop/026582120_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_"
+        }
     ]
 }

@@ -227,7 +227,31 @@ body {
 
 #main2-left{
     width: 18%;
+  }
+#main2-left h3{
+
+  margin-left: 50px;
+  cursor: pointer;
 }
+
+#padboth>img{
+  width: 70%;
+  margin-left: 40px;
+}
+
+#main2-left p{
+    text-align: left;
+    margin-left: 50px;
+    cursor: pointer;
+    color: rgb(122, 117, 117);
+}
+
+#main2-left p:hover{
+  text-decoration: underline;
+}
+
+
+
 #main2-right{
     width: 80%;
 }
@@ -262,6 +286,15 @@ body {
 #right-mid-filter{
     display: flex;
     justify-content: space-around;
+}
+
+#right-mid-filter select{
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: rgba(38, 38, 71, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 /* right mid end */
