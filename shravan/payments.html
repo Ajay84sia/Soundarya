@@ -135,24 +135,6 @@
         height: 35px;
         color: white;
     }
-    #pay{
-        padding: 3%;
-    }
-    #pay>input{
-        height: 25px;
-    }
-    #pay>select{
-        height: 25px;
-        margin: 2%;
-    }
-    #pay>button{
-        margin-top: 5%;
-        cursor: pointer;
-    }
-    #pay input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
-        display: none;
-        margin: 0px;
-    }
     @media all and (max-width: 700px) and (min-width: 400px){
         #main{
             display: block;
@@ -243,45 +225,6 @@
                 </div>
             </div>
             <button id="submit" type="submit" form="payments">CONFIRM BILLING ADDRESS</button>
-            <form id="pay">
-                <h3>PAYMENT METHOD</h3>
-                <p>NAME ON CARD</p>
-                <input type="text" required>
-                <p>NUMBER</p>
-                <input type="number">
-                <p>Expiration Date</p>
-                <select name="" id="exp" required>
-                    <option value="">Month</option>
-                    <option value="january">JAN</option>
-                    <option value="februrary">FEB</option>
-                    <option value="march">MAR</option>
-                    <option value="april">APR</option>
-                    <option value="june">JUN</option>
-                    <option value="july">JUL</option>
-                    <option value="august">AUG</option>
-                    <option value="september">SEP</option>
-                    <option value="october">OCT</option>
-                    <option value="november">NOV</option>
-                    <option value="december">DEC</option>
-                </select>
-
-                <select name="" id="year" required>
-                    <option value="">Year</option>
-                    <option value="2022">2022</option>
-                    <option value="2023">2023</option>
-                    <option value="2024">2024</option>
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
-                    <option value="2027">2027</option>
-                    <option value="2028">2028</option>
-                    <option value="2029">2029</option>
-                    <option value="2030">2030</option>
-                </select>
-                <p>SECURITY CODE</p>
-                <input type="text" required>
-                <button id="submit" type="submit">PROCEED</button>
-            </form>
-            
         </div>
     </div>
     <hr>
