@@ -147,6 +147,7 @@
     color: white;
     padding: 10px 30px;
     font-size: small;
+    cursor: pointer;
   }
   #apply-btn > div:hover {
     background-color: white;
@@ -168,4 +169,28 @@
   #checkout-btn:hover{
     background-color: white;
     color: green;
+  }
+  /* ////////////////display data////////////////// */
+
+  .data{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 75%;
+    margin: auto;
+    gap: 50px;
+  }
+  .data>img{
+    width: 20%;
+    height: 20%;
+  }
+  .data>h2{
+    margin-left: 270px;
+  }
+  .data>div>button{
+    padding: 5px 9px;
+    border: 0;
+  }
+  .data>div>button:hover{
+    background-color: black;
+    color: white;
   }
