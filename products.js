@@ -157,7 +157,7 @@ function displayprod(data){
           cateGory.innerText =  elem.category;
 
           let dealPrice = document.createElement("h2")
-          dealPrice.innerText =`₹${elem.price}`;
+          dealPrice.innerText =`$${elem.price}`;
 
           let btn = document.createElement("button")
           btn.innerText = "ADD TO BAG";

@@ -306,6 +306,11 @@ body {
   margin: auto;
   width: 85%;
 }
+
+#gap{
+  margin-bottom: 20px;
+}
+
 .mains img,
 .mains div {
   /* border: 1px solid green; */
@@ -319,8 +324,11 @@ body {
   margin: auto;
   width: 100%;
 }
+
+.div-img>div{
+  width: 45%;
+}
 .div-img img {
-  /* border: 1px solid green; */
   width: 100%;
   margin: auto;
 }

@@ -301,6 +301,7 @@ body {
 /* ----------------------------- */
 /* right bottom start */
 #right-bottom{
+  margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
@@ -311,6 +312,12 @@ body {
 
 #right-bottom>div{
     padding: 20px;
+    cursor: pointer;
+}
+
+#right-bottom>div:hover{
+  box-shadow: rgba(93, 92, 92, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
 }
 #right-bottom>div>img{
     width: 200px;
