@@ -350,27 +350,26 @@ body {
 }
 #mid{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 20px;
-    gap: 10px;
-   
-
+    gap: 30px;
+  
 }
 #mid>div:nth-child(1){
-    width: 30%;
+    width: 20%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin: auto;
+
     padding: 20px;
     gap: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
 }
 #mid>div>button{
-    width: 250px;
+    margin-top: 20px;
+    width: 180px;
     height: 38px;
     margin: auto;
     background-color: black;
@@ -382,11 +381,11 @@ body {
     cursor: pointer;
     background-color: white;
     color: black;
-    border-radius: 8px;
+    border-radius: 10px;
     
 }
 #mid>div:nth-child(2){
-    width: 70%;
+    width: 65%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
