@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="images\SmartSelect_20221215-101841_Gallery.png" type="image/x-icon">  
     <title>site-Saundarya-site</title>
 </head>
+
+<link rel="stylesheet" href="navbar.css">
 <link rel="stylesheet" href="footer.css">
 <script src="footer.js"></script>
 <style>
@@ -27,9 +29,9 @@
     #main>div:nth-child(2){
         width: 45%;
     }
-    #nav{
+    /* #nav{
         height: 100px;
-    }
+    } */
     #top{
         width: 90%;
         margin: auto;
@@ -59,6 +61,9 @@
         margin: 2%;
         color: blue;
         cursor: pointer;
+    }
+    #address>p{
+        text-align: left;
     }
     #payments>select{
         width: 100%;
@@ -140,14 +145,19 @@
     }
     #pay>input{
         height: 25px;
+        width: 90%;
     }
     #pay>select{
         height: 25px;
         margin: 2%;
+        width: 30%;
     }
     #pay>button{
         margin-top: 5%;
         cursor: pointer;
+    }
+    #pay>p{
+        text-align: left;
     }
     #pay input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
         display: none;
@@ -166,15 +176,252 @@
     }
 </style>
 <body>
-    <div id="nav"></div>
+    <!-- <div id="nav"></div> -->
+
+<!-- nav................. -->
+
+
+<div id="top1">
+    <div></div>
+    <h1>FREE SHIPPING ABOVE $999</h1>
+    <div></div>
+  </div>
+  <!-- gray-ribbon  -->
+  <div id="gray_ribban"></div>
+
+  <!-- nav-button  -->
+  <div id="main1">
+    <div>
+      <a href="./index.html"><img id="logo" src="./images/soundarya-logo.jpg" alt=""></a>
+
+    </div>
+
+    <!-- ....  -->
+    <div>
+      <div id="nav-btn">
+
+        <div>
+          <input id="s" type="text" name="" placeholder="Search by fragrance or Product...">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+
+        <div>
+          <a class="icon" href="./signup.html"><img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5cd11791/images/MyAccountlogin.png" alt=""></a>
+          
+        </div>
+
+        <div>
+          <a class="icon" href=""><img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw04072d5a/images/AddToBag.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <!-- ....  -->
+
+  </div>
+  </div>
+
+  <!-- start navbar  -->
+
+  <div class="ScriptTop">
+    <div class="rt-container">
+      <div class="col-rt-4" id="float-right">
+
+        <!-- Ad Here -->
+
+      </div>
+      <div class="col-rt-2">
+      </div>
+    </div>
+  </div>
+
+  <header class="ScriptHeader">
+    <div class="rt-container">
+      <div class="col-rt-12">
+        <div class="rt-heading">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="rt-container">
+      <div class="col-rt-12">
+        <div class="Scriptcontent">
+
+          <div id="container">
+            <nav>
+              <ul>
+                <li><a class="padding" id="new-margin" href="./signup.html">NEW AND NOW</a>
+                  <!-- dropdown -->
+                  <ul>
+                    <li><a href="#">NEW AND NOW</a>
+                      <ul>
+                        <li>
+                          <a href="#">3 WICK CANDLES </a>
+                          <a href="#">ALL NEW ARRIVALS </a>
+                          <a href="#">AROMATHERAPY</a>
+                          <a href="#">HAND SOAP'S</a>
+                          <a href="#">MEN'S SHOP </a>
+
+                        </li>
+                      </ul>
+
+                  </ul>
+
+                </li>
+
+                <li><a class="padding" href="./signup.html">BODY CARE</a>
+                  <!-- First Tier Drop Down -->
+                  <ul>
+                    <li><a href="#">AROMATHERAPY</a>
+                      <ul>
+                        <li><a href="">ALL AROMATHRAPY</a></li>
+                        <li><a href="">MOISTURIZERS</a></li>
+                      </ul>
+
+                    </li>
+                    <li><a href="#">BATH AND SHOWER</a>
+                      <ul>
+                        <li><a href="">ALL BATH AND SHOWER</a></li>
+                        <li><a href="">BATH ACCESSORIES</a></li>
+                        <li><a href="">BODY SCRUB</a></li>
+                        <li><a href="">SHOWER GEL</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">BODY CARE</a>
+                      <ul>
+                        <li><a href="">ALL FRAGRANCE</a></li>
+                        <li><a href="">PERFUME AND COLOGNE</a></li>
+
+                      </ul>
+                    </li>
+                    <li><a href="#">FRAGRANCE</a>
+                      <ul>
+                        <li><a href="">ALL FRAGRANCE</a></li>
+                        <li><a href="">BODY SPRAY AND MISTS</a></li>
+                        <li><a href="">PERFUME AND COLOGNE</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">MEN'S</a>
+                      <ul>
+                        <li><a href="">ALL MEN'S</a></li>
+                        <li><a href="">BODY SPRAY AND COLOGNE</a></li>
+                        <li><a href="">BODY WASH</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">MOISTURIZERS</a>
+                      <ul>
+                        <li><a href="">ALL MOISTURIZERS</a></li>
+                        <li><a href="">BODY CREAM</a></li>
+                        <li><a href="">BODY LOTION</a></li>
+                        <li><a href="">HAND CREAM</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">GIFT SETS</a>
+                      <ul>
+                        <li><a href="">BODY CARE GIFT SETS</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li><a class="padding" href="./signup.html">HAND SOAPS AND CLEANSERS</a>
+                  <!-- First Tier Drop Down -->
+                  <ul>
+                    <li><a href="#">HAND CLEANSERS</a>
+                      <ul>
+                        <li><a href="">ALL HAND CLEANSERS</a> </li>
+                        <li><a href="">CLEANSING HAND GELS</a> </li>
+                        <li><a href="">CLEANSING HAND SPRAY</a> </li>
+                        <li><a href="">POCKETBAC HOLDERS</a> </li>
+                      </ul>
+
+                    </li>
+
+                    <li><a href="#">HAND SOAPS</a>
+                      <ul>
+                        <li><a href="">ALL HAND SHOPS</a></li>
+                        <li><a href="">FOAMING SOAPS</a></li>
+                        <li><a href="">NOURISHING SOAPS</a></li>
+                        <li><a href="">SOAP HOLDERS</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li><a class="padding" href="./signup.html">HOME FRAGRANCE</a>
+                  <ul>
+                    <li><a href="">AIR FRESHENERS</a>
+                      <ul>
+                        <li><a href="">ALL WALLFLOWERS</a></li>
+                        <li><a href="">CAR FRAGRANCE</a></li>
+                        <li><a href="">ROOM SPRAYS</a></li>
+                        <li><a href="">WALLFLOWERS REFILLS</a></li>
+                        <li><a href="">WALLFLOWERS PLUGS</a></li>
+                      </ul>
+                    </li>
+
+
+                    <li><a href="">CANDLES</a>
+                      <ul>
+                        <li><a href="">3-WICK CANDLES</a></li>
+                        <li><a href="">ALL CANDLES</a></li>
+                        <li><a href="">CANDLE HOLDERS</a></li>
+
+                        <li><a href="">SIGNLE WICK CANDLES</a></li>
+
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a class="padding" href="./signup.html">GIFTS</a>
+                  <ul>
+                    <li><a href="">COLLECTIONS</a>
+                      <ul>
+                        <li><a href="">ACCESSORIES</a></li>
+                        <li><a href="">GIFT BOXES AND BAGS</a></li>
+                        <li><a href="">GIFTS FOR EVERYONE</a></li>
+
+                      </ul>
+                    </li>
+
+
+                    <li><a href="">GIFTS BY RECIPIENT</a>
+                      <ul>
+                        <li><a href="">GIFT SETS</a></li>
+                        <li><a href="">GIFTS FOR EVERYONE</a></li>
+                        <li><a href="">GIFT FOR HER</a></li>
+                        <li><a href="">GIFTS FRO HIM</a></li>
+                        <li><a href="">GIFTS FOR HOME</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a class="padding" href="#">TOP OFFERS</a></li>
+                <!-- <li><a class="padding" href="#">GET INSPIRED</a></li> -->
+              </ul>
+            </nav>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- nav................. -->
+
     <div id="top">
     <h2>ADDRESS</h2>
     <hr>
     </div>
     <div id="main">
         <div id="address">
-            <h3>SHIPPING</h3>
-            <a>EDIT</a>
             <h3>SHIPPING ADDRESS:</h3>
 
             <p>
@@ -194,35 +441,11 @@
                     <p>Standard ( Estimated Delivery in 5 to 7 Days )</p>
                 </div>
                 <div>
-                    <p>₹0.00</p>
+                    <p>$0.00</p>
                 </div>
 
             </div>
-            <br>
-            <h3>PAYMENT</h3>
-            <form id="payments">
-                <h3>BILLING ADDRESS</h3>
-                <select required>
-                    <option disabled>-Existing Shipments-</option>
-                    <option>data to be fetched from local storage</option>
-                </select>
-                <div id="buttons">
-                    <button type="button">UPDATE ADDRESS</button>
-                    <button type="button">ADD NEW</button>
-                </div>
-                <h3>PHONE NUMBER</h3>
-                <input type="number" required>
-                <div id="razorpay">
-                    <h3>RAZORPAY (CARDS, UPI, NETBANKING, WALLETS)</h3>
-                </div>
-                <form>
-                    <input type="radio" checked="checked">
-                    <img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw33345569/images/NewRazorpay.png" alt="">
-                </form>
-            </form>
-        </div>
-        <div id="details">
-            <h3>ORDER DETAILS</h3>
+                        <h3>ORDER DETAILS</h3>
             <P>Prices are inclusive of all taxes</P>
             <div id="pricedetails">
                 <div>
@@ -230,8 +453,8 @@
                     <h4>Shipping Charges</h4>
                 </div>
                 <div>
-                    <h4>₹1,799.00</h4>
-                    <h4>₹0.00</h4>
+                    <h4>$0.00</h4>
+                    <h4>$0.00</h4>
                 </div>
             </div>
             <div id="total">
@@ -239,15 +462,18 @@
                     <h3>ORDER TOTAL</h3>
                 </div>
                 <div>
-                    <h3>₹1,799.00</h3>
+                    <h3>$0.00</h3>
                 </div>
             </div>
-            <button id="submit" type="submit" form="payments">CONFIRM BILLING ADDRESS</button>
+        </div>
+        <div id="details">
+
+            <!-- <button id="submit" type="submit" form="payments">CONFIRM BILLING ADDRESS</button> -->
             <form id="pay">
                 <h3>PAYMENT METHOD</h3>
                 <p>NAME ON CARD</p>
                 <input type="text" required>
-                <p>NUMBER</p>
+                <p>CARD NUMBER</p>
                 <input type="number">
                 <p>Expiration Date</p>
                 <select name="" id="exp" required>
