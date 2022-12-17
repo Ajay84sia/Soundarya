@@ -123,9 +123,9 @@ body {
   padding-left: 50px;
 }
 
-p {
+/* p {
   text-align: center;
-}
+} */
 
 nav {
 
@@ -346,8 +346,8 @@ li>a:only-child:after {
     height: 150px;
   }
   #dk {
-    background-color: yellow;
-    padding: 0 5px;
+    background-color: rgb(217, 217, 0);
+    padding: 1px 10px;
     cursor: pointer;
   }
   .payment-opt > div:nth-child(2) {
@@ -385,6 +385,7 @@ li>a:only-child:after {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
   }
   #checkout-btn:hover{
     background-color: white;
@@ -393,26 +394,44 @@ li>a:only-child:after {
   /* ////////////////display data////////////////// */
 
   .data{
-    /* border: 1px solid red; */
     display: flex;
+    justify-content: space-around;
     width: 75%;
     margin: auto;
-    gap: 110px;
+    /* gap: 100px; */
   }
+
+  /* .data>h2{
+    border: 1px solid red;
+    margin-left: 200px;
+    margin-right: 0;
+  }
+  .data>div{
+    border: green 1px solid;
+    
+  } */
+  
   .data>img{
     width: 100px;
     height: 200px;
   }
-  .data>h2{
-    margin-left: 270px;
+  #qty{
+    margin-left: 0px;
   }
-  .data>div>button{
-    padding: 5px 9px;
-    border: 0;
+  #pricee{
+    margin-right: 70px;
   }
-  .data>div>button:hover{
-    background-color: black;
-    color: white;
+  #pr{
+    margin-right: 15px;
+  }
+  #item{
+    margin-left: 40px;
+  }
+  #cross{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    cursor: pointer;
   }
 
 
