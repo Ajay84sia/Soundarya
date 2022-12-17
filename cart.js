@@ -50,21 +50,30 @@ function getasProd(prodImg, prodName, category, prodPrice, quantity) {
           <p>${quantity}</p>
           <p>Available</p>
           </div>
-
-          <h2>₹${prodPrice * quantity}</h2>
+          
+          <h2>$${prodPrice * quantity}</h2>
+          <img id="cross" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ecvJSRgBsg4wxeqVmq0BPwM3MKuMnx5MAg&usqp=CAU" alt="">
           
           </div>
           <hr>
       `;
- 
-    }
-    
+}
 
 document.getElementById("product-price").innerText = sum;
-let roundTotal=sum + 6.99 + 2.4;
-let total = document.getElementById("total").innerText = Math.round(roundTotal)
+let roundTotal = sum + 6.99 + 2.4;
+// if(sum==0){
+//   let total = document.getElementById("total").innerText =0
+// }
+let total = (document.getElementById("total").innerText =
+  Math.round(roundTotal));
 
-let apply=document.getElementById("apply-btn>div")
-apply.addEventListener("click",function(){
-    console.log("hello")
-})
+let apply = document.getElementById("apply-btn>div");
+// apply.addEventListener("click", function () {
+//   console.log("hello");
+// });
+
+let cross=document.querySelector("#cross")
+
+// cross.addEventListener("click",function(){
+//   alert("cross")
+// })
