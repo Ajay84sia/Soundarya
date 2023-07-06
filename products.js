@@ -1,7 +1,7 @@
 let productDiv = document.getElementById("right-bottom");
 
 
-let url = "https://happy-ant-crown.cyclic.app/products";
+let url = "https://glamorous-helmet-yak.cyclic.app/products";
 
 let bag = [];
 let cartItems = JSON.parse(localStorage.getItem("cartProducts")) || [];
